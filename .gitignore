@@ -1,0 +1,14 @@
+# Local previews and unused design experiments
+assets/*-preview.png
+assets/kneeflex-comparison-standard.png
+assets/kneeflex-comparison-cushion.png
+assets/kneeflex-prototype-reference.png
+assets/kneeflex-comparison-image-prompts.md
+
+# Local machine files
+.DS_Store
+Thumbs.db
+desktop.ini
+.env
+.env.*
+*.log
