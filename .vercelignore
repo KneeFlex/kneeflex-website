@@ -1,0 +1,16 @@
+# Upload the website, not local Git history or preview artifacts.
+.git/
+.vercel/
+assets/*-preview.png
+assets/kneeflex-comparison-standard.png
+assets/kneeflex-comparison-cushion.png
+assets/kneeflex-prototype-reference.png
+assets/kneeflex-comparison-image-prompts.md
+README.md
+assets/*.md
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
