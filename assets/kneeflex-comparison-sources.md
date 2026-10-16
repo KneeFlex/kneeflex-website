@@ -8,3 +8,6 @@ Checked: 14 October 2026 (Asia/Seoul).
 - KneeFlex photo: existing user-supplied concept film still, kneeflex-profile.jpg.
 
 These are representative US retail examples, not category averages or manufacturing costs. Tax/shipping excluded; no currency conversion. Structural pros/cons summarize the user's supplied comparison concept and product configurations. KneeFlex benefits are design intentions, with performance testing still pending.
+
+
+Updated 16 October 2026: comparison cards now show AI-generated rider concept illustrations (kneeflex-rider-standard.jpg, kneeflex-rider-seated.jpg, kneeflex-rider-kneeflex.jpg). They depict generic riding configurations and are not photographs of the priced retail models. Prices remain representative retail examples above. The public comparison contains no retailer links or model names.

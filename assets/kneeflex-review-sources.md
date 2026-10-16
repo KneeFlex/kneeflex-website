@@ -10,3 +10,6 @@ Supplied by the founder on 15 October 2026. Original images are copied unchanged
 These are experiences of other products, not KneeFlex testimonials, and do not establish KneeFlex performance. Original images can be opened from the website; source links are provided separately.
 
 The earlier three text-only excerpt cards have been removed.
+
+
+Updated 16 October 2026: the public Shared experience area no longer displays screenshots, quotations, names, ratings, or source links. Two editorial summaries describe conventional knee support pressure and rider fit, paired with KneeFlex design responses. These are design learnings, not KneeFlex customer reviews.

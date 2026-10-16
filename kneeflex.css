@@ -554,37 +554,23 @@ a[aria-disabled="true"]{cursor:default;opacity:.55}
 .story-reviews{margin-top:40px;padding-top:25px}.story-reviews-heading{display:block;margin-bottom:25px}.story-reviews-heading h3{font-size:23px}.story-reviews-heading p{font-size:9px;margin-top:10px}.story-reviews .voice-grid{gap:25px}.story-reviews .voice-card{padding-left:16px}.story-reviews .voice-card blockquote{font-size:19px;margin:12px 0 16px}
 }
 
-/* Original review screenshots with a separate, responsive highlighter layer. */
+/* Condensed design learnings replace attributed review screenshots. */
 .story-photos{width:88%;max-width:1050px;margin-left:auto;margin-right:auto}
-.review-captures{display:grid;gap:28px;max-width:1050px;margin:0 auto}
-.review-capture{min-width:0;margin:0}
-.review-capture-scroll{overflow-x:auto;border:1px solid #dcded5;border-radius:8px;background:#fff;scrollbar-width:thin;scrollbar-color:#b3bba4 #f0f1eb}
-.review-capture-scroll:focus-visible{outline:2px solid #8da664;outline-offset:4px}
-.review-capture-image{position:relative;display:block;isolation:isolate}
-.review-capture-image img{display:block;width:100%;height:auto}
-.review-capture-image--reddit{max-width:992px;margin:0 auto}
-.review-highlight{position:absolute;left:var(--x);top:var(--y);width:var(--w);height:var(--h);background:#ffe65d;opacity:.7;mix-blend-mode:multiply;pointer-events:none;border-radius:3px 7px 3px 5px;transform:rotate(-.3deg)}
-.review-capture figcaption{display:flex;justify-content:space-between;align-items:baseline;gap:15px;font-size:9px;letter-spacing:.04em;margin:12px 2px 0;color:var(--ink-soft);line-height:1.5}
-.review-source-kind{letter-spacing:0;color:#858b7e}
-.review-capture figcaption>a{white-space:nowrap;border-bottom:1px solid #b7bead}
-.review-capture-note{font-size:9px;color:#858b7e;line-height:1.6;margin:18px 0 0}
-@media(max-width:720px){
-.story-photos{width:94%}.review-captures{gap:24px}.review-capture-image--amazon{min-width:850px}.review-capture-image--reddit{min-width:720px}.review-capture figcaption{font-size:8px;align-items:start}.review-source-kind{display:block}.review-capture-note{font-size:8px}
-}
-
-/* Each review unfolds into its design response as it enters the viewport. */
-.review-captures{gap:48px;max-width:none}
-.review-row{--review-fold:0;display:grid;grid-template-columns:minmax(0,3fr) minmax(180px,1fr);align-items:center;gap:clamp(24px,4vw,65px);perspective:1200px}
-.review-row .review-capture{transform-origin:15% 50%}
-.motion-ready .review-row .review-capture{transform:translateX(calc(var(--review-fold)*26px)) translateY(calc(var(--review-fold)*25px)) rotateX(calc(var(--review-fold)*12deg)) rotateZ(calc(var(--review-fold)*-3deg))}
-.motion-ready .review-row:nth-child(2) .review-capture{transform:translateX(calc(var(--review-fold)*-18px)) translateY(calc(var(--review-fold)*-28px)) rotateX(calc(var(--review-fold)*12deg)) rotateZ(calc(var(--review-fold)*3deg))}
-.review-response-label{font-size:8px;letter-spacing:.12em;color:#7b856e}
-.review-response h4{font-size:clamp(21px,2.2vw,34px);font-weight:500;letter-spacing:-.05em;line-height:1.15;margin:15px 0}
-.review-response-arrow{font-size:22px;color:#8b9d70}
-.review-response p{font-size:13px;color:var(--ink-soft);line-height:1.65;margin:14px 0 0;max-width:270px}
-.motion-ready .review-response{opacity:calc(1 - var(--review-fold));transform:translateY(calc(var(--review-fold)*20px))}
-.compare-limit dd{color:#665b4e}
-.compare-limit dt{color:#a48c6a}
-@media(max-width:900px){.review-row{grid-template-columns:minmax(0,2.2fr) minmax(160px,1fr);gap:25px}.review-response h4{font-size:23px}.review-response p{font-size:12px}}
-@media(max-width:720px){.review-row{grid-template-columns:1fr;gap:20px}.review-response{padding-left:15px;border-left:2px solid #c9d6b2}.review-response h4{font-size:24px;margin:10px 0}.review-response h4 br{display:none}.review-response-arrow{display:none}.review-response p{max-width:440px;margin-top:10px}.review-captures{gap:40px}}
-@media(prefers-reduced-motion:reduce){.motion-ready .review-row .review-capture,.motion-ready .review-row:nth-child(2) .review-capture,.motion-ready .review-response{transform:none;opacity:1}}
+.experience-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.review-row{--review-fold:0;min-width:0;perspective:1200px}
+.experience-card{height:100%;background:#ebece4;border:1px solid #dce0d1;border-radius:14px;padding:32px;transform-origin:15% 60%;display:flex;flex-direction:column}
+.experience-number{font-size:9px;letter-spacing:.13em;color:#818c73}
+.experience-problem{padding:28px 0 30px;flex:1}
+.experience-problem h4{font-size:clamp(28px,3.25vw,48px);font-weight:500;letter-spacing:-.055em;line-height:1.06;margin:0 0 20px}
+.experience-problem p{max-width:330px;margin:0;font-size:13px;line-height:1.65;color:var(--ink-soft)}
+.experience-solution{border-top:1px solid #cbd3bf;padding-top:20px}
+.experience-solution>span{display:flex;justify-content:space-between;font-size:9px;letter-spacing:.12em;color:#788d60}
+.experience-solution>span span{font-size:19px;line-height:.7}
+.experience-solution p{font-size:15px;line-height:1.5;letter-spacing:-.015em;color:#36472c;margin:17px 0 0;max-width:350px}
+.motion-ready .review-row .experience-card{transform:translateY(calc(var(--review-fold)*30px)) rotateX(calc(var(--review-fold)*10deg)) rotateZ(calc(var(--review-fold)*-2deg))}
+.motion-ready .review-row:nth-child(2) .experience-card{transform:translateY(calc(var(--review-fold)*40px)) rotateX(calc(var(--review-fold)*10deg)) rotateZ(calc(var(--review-fold)*2deg))}
+.compare-limit dd{color:#665b4e}.compare-limit dt{color:#a48c6a}
+.compare-card-photo,.compare-card-photo--kneeflex{height:auto;aspect-ratio:1/1;background:#eeece8}
+.compare-card-photo img,.compare-card-photo--kneeflex img{width:100%;height:100%;padding:0;object-fit:contain}
+@media(max-width:720px){.story-photos{width:94%}.experience-grid{grid-template-columns:1fr;gap:20px}.experience-card{padding:25px}.experience-problem{padding:23px 0}.experience-problem h4{font-size:35px}.experience-solution p{font-size:14px}.compare-card-photo{height:auto}}
+@media(prefers-reduced-motion:reduce){.motion-ready .review-row .experience-card,.motion-ready .review-row:nth-child(2) .experience-card{transform:none}}

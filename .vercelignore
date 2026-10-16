@@ -14,3 +14,9 @@ assets/*.md
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Superseded comparison photos and review screenshots, retained in source history
+assets/kneeflex-review-amazon-original.png
+assets/kneeflex-review-reddit-original.png
+assets/kneeflex-comparison-standard-retail.jpg
+assets/kneeflex-comparison-seated-retail.jpg
