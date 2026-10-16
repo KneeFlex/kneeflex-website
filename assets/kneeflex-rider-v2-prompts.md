@@ -1,0 +1,14 @@
+# Rider correction prompts
+
+Built-in image_gen edits, 16 October 2026. New versioned JPEG assets, with original reference files preserved.
+
+Outputs: assets/kneeflex-rider-seated-v2.jpg and assets/kneeflex-rider-kneeflex-v2.jpg.
+
+## seated-v2
+
+Edit this specific studio illustration. Preserve the same woman, face, clothes, camera angle, full-body framing, pale gray background, lighting, black four-wheel seated scooter, low rear seat, handlebars and basket. Correct the riding configuration: REMOVE the entire forward horizontal leg-support platform and its vertical mounting post. There must be NO footrest, leg rest, knee pad or platform anywhere on this seated scooter. The woman remains fully seated on the rear seat and propels using ONLY her healthy right foot on the floor. Her injured LEFT lower leg wears the gray boot; bend the left knee naturally and keep the boot suspended a short distance above the floor, not bearing weight, not touching any part of the scooter. Distinct separated legs, no crossing. The injured boot is NOT propped forward on anything. Keep the complete vehicle and person visible, no text, no logos. Output a square photorealistic concept illustration matching the original series.
+
+## kneeflex-v2
+
+Edit this KneeFlex rider illustration to FIX the crossed-leg anatomy. Preserve the same woman, her face, sage T-shirt, dark shorts, white shoes, gray studio lighting/background, full-person framing, black four-wheel scooter and separate high pelvic saddle. The LEFT injured leg must be on the rider's LEFT side, on a long knee-shin cradle offset out to her LEFT side of the frame (near-camera side). Turn the camera slightly toward her FRONT-LEFT side if needed to clearly show the lateral separation. The injured left thigh drops to the left knee pad, the entire LEFT SHIN lies horizontally backward along that LEFT-SIDE cradle, and the left foot extends naturally behind it, elevated. This bent leg stays entirely on the LEFT of her body and LEFT of the seat post, with the left shin visibly outboard, NOT pointing across the body or crossing the other leg. The healthy RIGHT leg is on the opposite, RIGHT side of the frame, reaches straight down to the ground to push, and must NOT cross underneath the left shin or pass through the knee pad, saddle post or frame. Place the right foot beside the opposite side wheel, slightly forward rather than crossing backward under the injured leg. Clear hip-knee-ankle chains, only two legs, only two feet, no crossed thighs or shins. Ensure the LEFT-side cradle physically supports the whole left knee and shin, and high saddle contacts pelvis. Maintain active semi-standing posture, not seated low. Show all wheels, handlebars and front basket; no labels, arrows, words or logos. Square consistent studio concept illustration.
+

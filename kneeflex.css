@@ -574,3 +574,6 @@ a[aria-disabled="true"]{cursor:default;opacity:.55}
 .compare-card-photo img,.compare-card-photo--kneeflex img{width:100%;height:100%;padding:0;object-fit:contain}
 @media(max-width:720px){.story-photos{width:94%}.experience-grid{grid-template-columns:1fr;gap:20px}.experience-card{padding:25px}.experience-problem{padding:23px 0}.experience-problem h4{font-size:35px}.experience-solution p{font-size:14px}.compare-card-photo{height:auto}}
 @media(prefers-reduced-motion:reduce){.motion-ready .review-row .experience-card,.motion-ready .review-row:nth-child(2) .experience-card{transform:none}}
+
+/* Keep comparison rows aligned when prices have different captions. */
+.compare-facts .compare-price{min-height:100px}

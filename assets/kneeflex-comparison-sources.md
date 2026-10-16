@@ -11,3 +11,6 @@ These are representative US retail examples, not category averages or manufactur
 
 
 Updated 16 October 2026: comparison cards now show AI-generated rider concept illustrations (kneeflex-rider-standard.jpg, kneeflex-rider-seated.jpg, kneeflex-rider-kneeflex.jpg). They depict generic riding configurations and are not photographs of the priced retail models. Prices remain representative retail examples above. The public comparison contains no retailer links or model names.
+
+
+Rider correction, 16 October 2026: seated illustration now represents a configuration with no leg-rest platform; it is not an exact illustration of the priced KneeRover EVO-03. KneeFlex illustration shows an outboard left knee-shin cradle and separated legs. KneeFlex price US$225.99 was supplied directly by the founder, not inferred from retail sources. Active illustration filenames use -v2.jpg. Standard knee scooter illustration is unchanged.
